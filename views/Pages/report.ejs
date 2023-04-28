@@ -1,0 +1,103 @@
+<%- contentFor('HeaderCss') %> <%- contentFor('breadcrumb') %>
+
+<!-- start page title -->
+<div class="row">
+  <div class="col-12" style="display: flex; justify-content: center">
+    <div
+      class="page-title-box d-sm-flex align-items-center justify-content-between"
+    >
+      <h1 class="mb-sm-0 font-size-52">Daily Report</h1>
+    </div>
+  </div>
+</div>
+<!-- end page title -->
+
+<!-- start daily report -->
+<div class="row">
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">VIP Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea1Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Paydaş Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea2Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Engelli Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea3Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Öğrenci Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea4Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">IFM, DTM Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea5Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Yarışmacı, Sponsor, Ziyaretçi Otopark</h5>
+        <p class="card-text">
+          Park Edilen Araç Sayısı:
+          <span style="font-size: large; font-weight: bold"
+            ><%= parkingArea6Count %></span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end daily report -->
+
+<%- contentFor('FooterJs') %> <%- contentFor('BottomJs') %>
